@@ -1,0 +1,19 @@
+@import url("cabecalho.css");
+@import url("banner.css");
+
+:root{
+    --cor1: #ffffff;
+    --cor2: #8d0606;
+    --cor3: #000000;
+    --cor4: #c4c4c4;
+    --cor5: #8c8888;
+    --cor6: #0000005a;
+    --cor7: #f1f1f1;
+    --cor8: #e5e5e5;
+
+
+}
+
+body{
+    background: var(--cor8);
+}
