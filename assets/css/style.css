@@ -1,5 +1,11 @@
 @import url("cabecalho.css");
 @import url("banner.css");
+@import url("assunto.css");
+@import url("receitas.css");
+@import url("quem-somos.css");
+@import url(".css");
+@import url(".css");
+
 
 :root{
     --cor1: #ffffff;
@@ -11,9 +17,12 @@
     --cor7: #f1f1f1;
     --cor8: #e5e5e5;
 
+    --font1: "pacifico", "cursive";
+    --font2: "roboto", "sans-serif";
 
 }
 
 body{
     background: var(--cor8);
+
 }

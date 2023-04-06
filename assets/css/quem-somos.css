@@ -1,0 +1,46 @@
+.quem-somos{
+    background: var(--cor1);
+    padding: 1.32em;
+}
+.quem-somos__titulo{
+    font-family: var(--font1);
+    color: var(--cor2);
+    font-size: 3.19em;
+    text-align: center;
+}
+.quem-somos__descricao{
+    font-family: var(--font2);
+    color: var(--cor5);
+    font-size: 1.75em;
+    text-align: center;
+    font-weight: 100;
+}
+.pessoas{
+
+}
+.pessoa{
+
+}
+.pessoa__imagem{
+
+}
+.pessoa__imagem--roberta{
+
+}
+.pessoa__imagem--marcela{
+
+}
+.pessoa__imagem--andreia{
+
+}
+.pessoa__nome{
+    font-family: var(--font1);
+    color: var(--cor2);
+    font-size: 1.43rem;
+}
+.pessoa__funcao{
+    font-family: var(--font2);
+    color: var(--cor5);
+    font-size: 1.43rem;
+    font-weight: 100;
+}

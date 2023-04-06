@@ -1,0 +1,45 @@
+.receitas{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem 0 0 5rem;
+}
+.receita{
+    display: flex;
+    flex-direction: column;
+    background: var(--cor7);
+    width: calc(25% - 5rem);
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+
+}
+.receita__imagem{
+    height: 200px;
+}
+.receita__conteudo{
+    padding: 1rem;
+}
+.receita__titulo{
+    font-size: 1.43rem;
+    font-weight: 400;
+}
+.receita__descricao{
+    font-size: 1.18rem;
+    line-height: 1.5;
+    text-align: justify;
+    font-weight: 400;
+
+}
+.receita__botao{
+    background: var(--cor2);
+    border-radius: 5px;
+    color: var(--cor1);
+    font-weight: 400;
+    padding: .5em;
+    border: none;
+    transition: all .3s ease-in-out;
+}
+.receita__botao:hover{
+    cursor: pointer;
+    background: #560404;
+    font-weight: 500;
+}
