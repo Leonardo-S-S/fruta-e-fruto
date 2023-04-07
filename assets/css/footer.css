@@ -1,0 +1,17 @@
+.rodape{
+    margin: 1rem;
+}
+.rodape__contato{
+    margin: 0;
+    color: var(--cor5);
+    font-weight: 700;
+    text-align: end;
+}
+.rodape__contato--link{
+    text-decoration: none;
+    color: var(--cor5);
+}
+.rodape__contato--link:hover{
+    cursor: pointer;
+    color: var(--cor3);
+}

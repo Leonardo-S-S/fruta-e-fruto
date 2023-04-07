@@ -1,13 +1,14 @@
 .receitas{
     display: flex;
     flex-wrap: wrap;
-    padding: 5rem 0 0 5rem;
+    justify-content: center;
+    padding: 5vw 0 0 5vw;
 }
 .receita{
     display: flex;
     flex-direction: column;
     background: var(--cor7);
-    width: calc(25% - 5rem);
+    width: calc(25vw);
     margin-bottom: 5rem;
     margin-right: 5rem;
 
@@ -27,7 +28,6 @@
     line-height: 1.5;
     text-align: justify;
     font-weight: 400;
-
 }
 .receita__botao{
     background: var(--cor2);
