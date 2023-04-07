@@ -37,6 +37,15 @@
         text-decoration: underline;
     }
 
-    @media screen and {
-        
+    @media screen and (max-width: 540px) {
+        .cabecalho__header{
+            display: flex;
+            justify-content: center;
+        }
+        .cabecalho__logo{
+            display: none;
+        }
+        #nav__ultimo{
+            padding-right: 0;
+        }
     }

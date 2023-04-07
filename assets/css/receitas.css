@@ -8,12 +8,14 @@
     display: flex;
     flex-direction: column;
     background: var(--cor7);
-    width: calc(25vw);
+    width: 25vw;
+    min-width: 200px;
     margin-bottom: 5rem;
     margin-right: 5rem;
 
 }
 .receita__imagem{
+    width: 200px;
     height: 200px;
 }
 .receita__conteudo{
@@ -42,4 +44,42 @@
     cursor: pointer;
     background: #560404;
     font-weight: 500;
+}
+
+@media screen and (max-width: 860px){
+    .receitas{
+        padding: 4rem;
+        justify-content: space-between;
+    }
+    .receita{
+        margin-right: 0;
+    }
+    .receita__titulo{
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+    .receita__descricao{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .receitas{
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+
+    }
+    .receita{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        min-width: 190px;
+        width: 80%;
+        margin-bottom: 5em;
+    }
+    .receita__imagem{
+        width: auto;
+        height: 200px;
+    }
 }
